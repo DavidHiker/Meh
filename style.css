@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #b0c4de;
+}
+
+#generalHeader{
+margin-left:auto;
+margin-right:auto;
+width:98%;
+padding: 20px;
+border-radius: 10px;
+height:35px;
+background-color:#d8994c;
+}
+#header{
+margin-left:0;
+margin-right:0;
+width:90%;
+height:30px;
+background-color:#d8994c;
+}
+#header ul{
+float:left;
+margin:0;
+
+}
+#header ul li{
+float:left; 
+margin-left:0;
+list-style:none;
+
+padding:5px;
+
+}
+#header ul li a{
+text-decoration:none;
+color:black;
+}
+#header ul li a:hover{
+	text-decoration:none;
+	color:d8994c;
+	text-align: center;
+}
+
+/*end generalHeader*/ 
+
+/*baner1*/
+
+#baner1 {
+	text-align: center;>
+	border-radius: 10px;
+	margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    background: #3E608D;
+    padding: 20px; 
+    width: 98%;
+    height: 32px;    
+}
+
+/*end baner1 */
+
+/*searc*/
+
+#search
+
+
+form {
+                width:60%;
+                margin:50px auto;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+				
+				
+/* end searc*/
+				
+}#generalHeader #header ul li {
+	
+	text-align: center;
+}
+#header ul li {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+#header ul li {
+	font-size: 16px;
+}
+#header ul li {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #F0F0F0;
+	text-decoration: blink;
+}
+#generalHeader #header ul li {
+	text-align: left;
+}
+
+/* categories */
+.cat {
+	border-radius: 10px;
+	margin-left:auto;
+    margin-right:auto;
+    width:98%;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #7f8ea1;
+} 
+
