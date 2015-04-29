@@ -5,24 +5,28 @@ body {
 }
 
 #generalHeader{
-position:relative;
-margin-left:auto;
-margin-right:auto;
+position:relative; /* ამის საჭიროება აქ არ არის, რომ წაშალო არაფერი შეიცვლება */
+margin-left:auto; /* ამის საჭიროება აქ არ არის, რომ წაშალო არაფერი შეიცვლება */
+margin-right:auto; /* ამის საჭიროება აქ არ არის, რომ წაშალო არაფერი შეიცვლება */
 padding: 10px;
 border-radius: 10px;
 height:25px;
 background-color:#d8994c;
 }
 #header{
-position:relative;
-margin-left:0;
-margin-right:0;
+position:relative; /* ესეც ამ არ გჭირდება */
+margin-left:0; /* არც ეს */
+margin-right:0; /* არც ეს */
 height:30px;
-background-color:#d8994c;
+background-color:#d8994c; /* აქ შეგიძლია ფონი აღარ მიანიჭო იმიტომ რომ 
+რომელ div-შიც გიზის  იას აქვს უკვე ეს ფონი, ანუ ესეც რომ წაშალო არაფერი შეიცვლება*/
 }
 #header ul{
-position:relative;
-float:left;
+position:relative; /* არც ეს */
+float:left; /* არც ეს, იმიტომ რომ ავტომატურად html-ში, როგორც 
+გიწერია იგივე თანმიმდევრობით განთავსდება ელემენტები და ყოველთვის მარცხენა მხარეს,
+ხოლო თუ გამოიყენებ float-ებს და ნორმალური ნაკაიდიდან ამოაგდებ ელემენტს მერე ისევ უნდა გაასწორო
+ან სუ ფლოატები უნდა წერო რაც ცუდია */
 margin:0;
 
 }
